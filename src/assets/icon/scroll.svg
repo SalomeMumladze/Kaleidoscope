@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="53" viewBox="0 0 42 53">
+  <g id="scroll" transform="translate(-658 -676)">
+    <g id="Rectangle_26" data-name="Rectangle 26" transform="translate(668 676)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="21" height="35" rx="10.5" stroke="none"/>
+      <rect x="1" y="1" width="19" height="33" rx="9.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="3" height="8" rx="1.5" transform="translate(677 696)" fill="#fff"/>
+    <text id="scroll-2" data-name="scroll" transform="translate(658 726)" fill="#fff" font-size="10" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">SCROLL</tspan></text>
+  </g>
+</svg>

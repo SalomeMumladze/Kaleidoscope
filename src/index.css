@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: rgba(244, 246, 250);
+  
+  font-family: "FiraGO", sans-serif;
+}
+html {
+  
+  font-family: "FiraGO", sans-serif;
+}
+
+code {
+ 
+  font-family: "FiraGO", sans-serif;
+}
+
+@font-face {
+  font-family: "FiraGOLight";
+  src: local("FiraGOLight"),
+    url("assets/font/FiraGOLight.woff") format("truetype");
+}
