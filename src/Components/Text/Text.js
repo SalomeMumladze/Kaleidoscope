@@ -27,7 +27,6 @@ const useStyles = makeStyles((theme) => ({
     fontFamily: "'FiraGO', sans-serif",
     textTransform: "none",
     width: (props) => props.width,
-    width: (props) => props.widthSm,
     fontWeight: (props) => props.fontWeight,
     height: (props) => props.height,
     color: (props) => props.color,
@@ -42,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
       fontSize: (props) => props.fontSizeSm,
       lineHeight: (props) => props.lineHeightSm,
       margin: (props) => props.marginSm,
+      width: (props) => props.widthSm,
     },
   },
 }));

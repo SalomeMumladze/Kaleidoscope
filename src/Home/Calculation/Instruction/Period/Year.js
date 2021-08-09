@@ -6,19 +6,6 @@ import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 
-const useStyles = makeStyles((theme) => ({
-  formControl: {
-    margin: theme.spacing(1),
-    width: 200,
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-    },
-  },
-  selectEmpty: {
-    marginTop: theme.spacing(2),
-  },
-}));
-
 export default function Year() {
   const classes = useStyles();
   const [year, setyear] = React.useState("");
@@ -61,3 +48,16 @@ export default function Year() {
     </div>
   );
 }
+
+const useStyles = makeStyles((theme) => ({
+  formControl: {
+    margin: theme.spacing(1),
+    width: 200,
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
+  },
+  selectEmpty: {
+    marginTop: theme.spacing(2),
+  },
+}));
