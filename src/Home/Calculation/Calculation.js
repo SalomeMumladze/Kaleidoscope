@@ -3,7 +3,7 @@ import { Container, Box, Grid } from "@material-ui/core";
 import Instruction from "./Instruction";
 import circle from "assets/img/circle.png";
 
-const Calculation = () => {
+function Calculation() {
   return (
     <Container>
       <Box my={5}>
@@ -12,7 +12,7 @@ const Calculation = () => {
             <Instruction />
           </Grid>
           <Grid item md={6} xs={12}>
-            <Box justifyContent="center" display="flex">
+            <Box display="flex" justifyContent="center" alignItems="center">
               <img src={circle} />
             </Box>
           </Grid>
@@ -20,6 +20,6 @@ const Calculation = () => {
       </Box>
     </Container>
   );
-};
+}
 
 export default Calculation;

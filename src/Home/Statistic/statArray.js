@@ -10,6 +10,7 @@ import health from "assets/img/health.png";
 import mobile from "assets/img/mobile.png";
 import hotel from "assets/img/hotel.png";
 import home from "assets/img/home.png";
+
 const statistics = [
   {
     id: 1,
@@ -111,3 +112,4 @@ const statistics = [
 ];
 
 export default statistics;
+
