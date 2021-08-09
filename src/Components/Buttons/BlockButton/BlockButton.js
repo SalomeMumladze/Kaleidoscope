@@ -27,7 +27,7 @@ const BlockButton = (props) => {
 const useStyles = makeStyles((theme) => ({
   button: {
     margin: (props) => props.margin,
-    background: (props) => theme.colors[props.background || "orange"],
+    background: (props) => theme.colors[props.background || "red"],
     height: (props) => props.height || "60px",
     width: (props) => props.width || "100%",
     border: "1px solid transparent",
